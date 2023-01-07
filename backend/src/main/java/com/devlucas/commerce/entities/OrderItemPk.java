@@ -1,6 +1,7 @@
 package com.devlucas.commerce.entities;
 
 import jakarta.persistence.Embeddable;
+
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 

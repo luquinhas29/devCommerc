@@ -1,6 +1,7 @@
 package com.devlucas.commerce.entities;
 
 import jakarta.persistence.EmbeddedId;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 
@@ -10,6 +11,7 @@ public class OrderItem {
 	
 	@EmbeddedId
 	private OrderItemPk id = new OrderItemPk();
+	
 	private Integer quantity;
 	private double price;
 	
